@@ -28,6 +28,10 @@ Delete `assets` folder, `App.css`, and `App.jsx`.
 
 Clear all code from `index.css`.
 
+Create `App.jsx` and run `rafce`.
+
+Follow this [video](https://www.youtube.com/watch?v=E-fdPfRxkzQ&t=345s) from 10:02 by [JS Mastery](https://www.youtube.com/@javascriptmastery).
+
 ## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
