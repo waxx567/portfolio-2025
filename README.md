@@ -2,37 +2,7 @@
 
 A visually captivating 3D portfolio built with React.js and Three.js! Combines interactive 3D graphics and smooth web performance to showcase my skills in an engaging way.
 
-The Process:
-
-Pick an existing or new folder on your computer and open it in VS Code. In the Source Control view, select the `Initialize Repository` button. This creates a new Git repository in the current folder, allowing you to start tracking code changes. This action is equivalent to running `git init` on the command-line.
-
-`Ctrl + ~` opens your integrated terminal.
-
-Run `npm create vite@latest ./` to create the Vite application in the current folder.
-
-Input `y` to okay the package installation.
-
-Ignore files and continue.
-
-Choose `React`.
-
-Choose `JavaScript`.
-
-Run `npm install`.
-
-Run `npm run dev`.
-
-Open [localhost 5173](http://localhost:5173/) to see the application running locally.
-
-Delete `assets` folder, `App.css`, and `App.jsx`.
-
-Clear all code from `index.css`.
-
-Create `App.jsx` and run `rafce`.
-
-Install packages.
-
-Follow this [video](https://www.youtube.com/watch?v=E-fdPfRxkzQ&t=345s) from 10:02 by [JS Mastery](https://www.youtube.com/@javascriptmastery) for explanations of the installation and the packages added.
+Follow this [video](https://www.youtube.com/watch?v=E-fdPfRxkzQ&t=345s) by [JS Mastery](https://www.youtube.com/@javascriptmastery) for explanations of the installation and the packages added.
 
 ## React + Vite
 
