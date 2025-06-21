@@ -30,7 +30,9 @@ Clear all code from `index.css`.
 
 Create `App.jsx` and run `rafce`.
 
-Follow this [video](https://www.youtube.com/watch?v=E-fdPfRxkzQ&t=345s) from 10:02 by [JS Mastery](https://www.youtube.com/@javascriptmastery).
+Install packages.
+
+Follow this [video](https://www.youtube.com/watch?v=E-fdPfRxkzQ&t=345s) from 10:02 by [JS Mastery](https://www.youtube.com/@javascriptmastery) for explanations of the installation and the packages added.
 
 ## React + Vite
 
