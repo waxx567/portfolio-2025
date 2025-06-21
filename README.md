@@ -9,7 +9,6 @@ A visually captivating 3D portfolio built with React.js and Three.js! Combines i
 3. 🔋 Features
 4. 🤸 Quick Start
 5. 🔗 Assets & Snippets
-6. 🚀 More
 
 ### 🤖 Introduction
 
