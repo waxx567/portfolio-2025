@@ -24,6 +24,10 @@ Run `npm run dev`.
 
 Open [localhost 5173](http://localhost:5173/) to see the application running locally.
 
+Delete `assets` folder, `App.css`, and `App.jsx`.
+
+Clear all code from `index.css`.
+
 ## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
