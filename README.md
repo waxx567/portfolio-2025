@@ -24,7 +24,7 @@ Run `npm run dev`.
 
 Open [localhost 5173](http://localhost:5173/) to see the application running locally.
 
-# React + Vite
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
