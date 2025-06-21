@@ -2,7 +2,78 @@
 
 A visually captivating 3D portfolio built with React.js and Three.js! Combines interactive 3D graphics and smooth web performance to showcase my skills in an engaging way.
 
-Follow this [video](https://www.youtube.com/watch?v=E-fdPfRxkzQ&t=345s) by [JS Mastery](https://www.youtube.com/@javascriptmastery) for explanations of the installation and the packages added.
+## 📋 Table of Contents
+
+1. 🤖 Introduction
+2. ⚙️ Tech Stack
+3. 🔋 Features
+4. 🤸 Quick Start
+5. 🔗 Assets & Snippets
+6. 🚀 More
+
+### 🤖 Introduction
+
+This 3D Portfolio project is a highly engaging personal website that features animated 3D scenes, smooth camera transitions, interactive model showcases, and responsive design.
+
+### ⚙️ Tech Stack
+
+- Three.js
+- React Three Fiber
+- Drei
+- GSAP
+- Tailwind CSS
+- Vite
+- React 19
+
+### 🔋 Features
+
+👉 Animated 3D models and reveal animations
+👉 Realistic lighting and shadows
+👉 GSAP-powered scroll interactions
+👉 Responsive design with Tailwind CSS and Flexbox/Grid
+👉 Micro Interactions
+👉 Multi-section layout (About, Projects, Contact)
+👉 Mobile optimized 3D experience
+
+and many more, including code architecture and reusability.
+
+### 🤸 Quick Start
+
+Follow these steps to set up the project locally on your machine.
+
+Prerequisites
+
+Make sure you have the following installed on your machine:
+
+Git
+Node.js
+npm (Node Package Manager)
+Cloning the Repository
+
+git clone https://github.com/adrianhajdin/3d-portfolio.git
+cd 3d-portfolio
+Installation
+
+Install the project dependencies using npm:
+
+npm install
+Set Up Environment Variables
+
+Create a new file named .env in the root of your project and add the following content:
+
+VITE_APP_EMAILJS_SERVICE_ID=
+VITE_APP_EMAILJS_TEMPLATE_ID=
+VITE_APP_EMAILJS_PUBLIC_KEY=
+Replace the placeholder values with your actual EmailJS credentials.
+
+Running the Project
+
+npm run dev
+Open http://localhost:5173 in your browser to view the project.
+
+### 🔗 Assets and Snippets
+
+Follow this [video](https://www.youtube.com/watch?v=E-fdPfRxkzQ&t=345s) by [JS Mastery on YouTube](https://www.youtube.com/@javascriptmastery) for assets and snippets used in the project.
 
 ## React + Vite
 
