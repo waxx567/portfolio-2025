@@ -15,3 +15,12 @@ html, body {
   --color-blue-50: #839cb5;
   --color-blue-100: #2d2d38;
 }
+
+@layer utilities {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+  .flex-col-center {
+    @apply flex flex-col justify-center items-center;
+  }
+}
