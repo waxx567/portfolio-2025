@@ -450,6 +450,7 @@ section {
       #ffffff00 100deg
     );
   mask-composite: intersect;
+  -webkit-mask-clip: padding-box, border-box;
   mask-clip: padding-box, border-box;
   opacity: 0;
   transition: 0.5s ease;
