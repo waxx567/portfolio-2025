@@ -5,7 +5,7 @@ const Button = () => {
         <div className='bg-circle' />
         <p className='text'>See My Work</p>
         <div className='arrow-wrapper'>
-          <img src='./images/arrow.svg' alt='arrow' />
+          <img src='./images/arrow-down.svg' alt='arrow' />
         </div>
       </div>
     </a>
