@@ -9,7 +9,11 @@ const Hero = () => {
 
       <div className='hero-layout'>
         {/* LEFT: HERO CONTENT */}
-        {/* RIGHT: HERO CONTENT */}
+        <header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-5'>
+            
+        </header>
+        {/* RIGHT: 3D MODEL */}
+      </div>
     </section>
   )
 }
