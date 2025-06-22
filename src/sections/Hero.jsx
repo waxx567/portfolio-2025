@@ -9,6 +9,7 @@ const Hero = () => {
       </div>
 
       <div className='hero-layout'>
+        
         {/* LEFT: HERO CONTENT */}
         <header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-5'>
           <div className='flex flex-col gap-7'>
@@ -44,6 +45,7 @@ const Hero = () => {
             />
           </div>
         </header>
+
         {/* RIGHT: 3D MODEL */}
       </div>
     </section>
