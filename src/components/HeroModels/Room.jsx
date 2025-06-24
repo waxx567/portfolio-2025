@@ -40,4 +40,4 @@ export function Room(props) {
   )
 }
 
-useGLTF.preload('/optimized-room.glb')
+useGLTF.preload('/models/optimized-room.glb')
