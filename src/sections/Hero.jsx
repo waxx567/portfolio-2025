@@ -2,8 +2,10 @@ import { Canvas } from '@react-three/fiber'
 import Button from '../components/Button.jsx'
 import HeroExperience from '../components/HeroModels/HeroExperience.jsx'
 import { words } from '../constants/index.js'
+import { OrbitControls } from '@react-three/drei'
 
 const Hero = () => {
+  const isTablet = false;
   return (
     <section id='hero' className='relative overflow-hidden'>
       <div className='absolute top-0 left-0 z-10'>
@@ -50,8 +52,19 @@ const Hero = () => {
 
         {/* RIGHT: 3D MODEL */}
         <figure>
-          <Canvas>
-            <HeroExperience />
+          <Canvas camera={{ position: [0, 0, 15], fov: 45 }}>
+            <ambientLight intensity={0.2} color='#1A1A40' />
+            <directionalLight position={[5, 5, 5]} intensity={5} />
+
+            <OrbitControls 
+              enablePan={false}
+              enableZoom={!isTablet}
+            />
+            
+            <mesh>
+              <boxGeometry args={[1, 1, 1]} />
+              <meshStandardMaterial color='teal' />
+            </mesh>
           </Canvas>
         </figure>
       </div>
