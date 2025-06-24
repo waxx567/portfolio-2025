@@ -20,10 +20,7 @@ const HeroExperience = () => {
         maxPolarAngle={Math.PI / 2}
       />
       
-      <mesh>
-        <boxGeometry args={[1, 1, 1]} />
-        <meshStandardMaterial color='teal' />
-      </mesh>
+      <Room />
     </Canvas>
   )
 }
