@@ -1,3 +1,4 @@
+import { Canvas } from '@react-three/fiber'
 import Button from '../components/Button.jsx'
 import HeroExperience from '../components/HeroModels/HeroExperience.jsx'
 import { words } from '../constants/index.js'
@@ -49,9 +50,9 @@ const Hero = () => {
 
         {/* RIGHT: 3D MODEL */}
         <figure>
-          <div className='hero-3d-layout'>
+          <Canvas>
             <HeroExperience />
-          </div>
+          </Canvas>
         </figure>
       </div>
     </section>
