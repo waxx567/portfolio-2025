@@ -1,11 +1,8 @@
-import { Canvas } from '@react-three/fiber'
 import Button from '../components/Button.jsx'
 import HeroExperience from '../components/HeroModels/HeroExperience.jsx'
 import { words } from '../constants/index.js'
-import { OrbitControls } from '@react-three/drei'
 
 const Hero = () => {
-  const isTablet = false;
   return (
     <section id='hero' className='relative overflow-hidden'>
       <div className='absolute top-0 left-0 z-10'>
