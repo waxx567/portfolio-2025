@@ -6,7 +6,7 @@ Command: npx gltfjsx@6.5.3 optimized-room.glb
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export function Model(props) {
+export function Room(props) {
   const { nodes, materials } = useGLTF('/optimized-room.glb')
   return (
     <group {...props} dispose={null}>
