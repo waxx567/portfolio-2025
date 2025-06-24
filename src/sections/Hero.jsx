@@ -48,7 +48,9 @@ const Hero = () => {
         </header>
 
         {/* RIGHT: 3D MODEL */}
-        <HeroExperience />
+        <figure>
+          <HeroExperience />
+        </figure>
       </div>
     </section>
   )
