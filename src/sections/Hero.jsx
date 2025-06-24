@@ -59,6 +59,10 @@ const Hero = () => {
             <OrbitControls 
               enablePan={false}
               enableZoom={!isTablet}
+              maxDistance={20}
+              minDistance={5}
+              minPolarAngle={Math.PI / 5}
+              maxPolarAngle={Math.PI / 2}
             />
             
             <mesh>
