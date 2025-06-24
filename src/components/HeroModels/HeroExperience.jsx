@@ -1,9 +1,8 @@
-import React from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 
 const HeroExperience = () => {
-  const isTablet = false
+  const isTablet = false;
 
   return (
     <Canvas camera={{ position: [0, 0, 15], fov: 45 }}>
