@@ -4,7 +4,7 @@ import { useMediaQuery } from 'react-responsive';
 import { Room } from './Room';
 
 const HeroExperience = () => {
-  // const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
   const isTablet = useMediaQuery({ query: '(max-width: 1024px)' });
 
   return (
@@ -21,7 +21,11 @@ const HeroExperience = () => {
         maxPolarAngle={Math.PI / 2}
       />
       
-      <Room />
+      <group
+       scale={isMobile ? 0.7 : 1}
+      >
+        <Room />
+      </group>
     </Canvas>
   )
 }
