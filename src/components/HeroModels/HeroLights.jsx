@@ -1,4 +1,4 @@
-// import * as THREE from 'three'
+import * as THREE from 'three'
 
 const HeroLights = () => {
   return (
@@ -27,12 +27,12 @@ const HeroLights = () => {
        color='#9d4edd'
       />
 
-      {/* <primitive
+      <primitive
        object={new THREE.RectAreaLight('#a259ff', 8, 3, 2)}
        position={[1, 3, 4]}
        intensity={15}
        rotation={[-Math.PI / 4, Math.PI / 4, 0]}
-      /> */}
+      />
 
       {/* <pointLight 
        position={[0, 1, 0]}
