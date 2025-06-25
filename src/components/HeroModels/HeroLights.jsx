@@ -1,16 +1,15 @@
-import React from 'react'
-import * as THREE from 'three'
+// import * as THREE from 'three'
 
 const HeroLights = () => {
   return (
     <>
-      {/* <spotLight 
+      <spotLight 
        position={[2, 5, 6]}
        angle={0.15}
        intensity={100} 
        penumbra={0.2}
        color='#ffffff'
-      /> */}
+      />
       
       {/* <spotLight 
        position={[4, 5, 4]}
