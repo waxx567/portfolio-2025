@@ -2,6 +2,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import { useMediaQuery } from 'react-responsive';
 import { Room } from './Room';
+import HeroLights from './HeroLights';
 
 const HeroExperience = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
@@ -18,6 +19,7 @@ const HeroExperience = () => {
         maxPolarAngle={Math.PI / 2}
       />
       
+      <HeroLights />
       <group
        scale={isMobile ? 0.7 : 1}
        position={[0, -3.5, 0]}
