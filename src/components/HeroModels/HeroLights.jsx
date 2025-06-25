@@ -1,4 +1,5 @@
 import React from 'react'
+import * as THREE from 'three'
 
 const HeroLights = () => {
   return (
@@ -25,6 +26,13 @@ const HeroLights = () => {
        intensity={60} 
        penumbra={1}
        color='#9d4edd'
+      />
+
+      <primitive
+       object={new THREE.RectAreaLight('#a259ff', 8, 3, 2)}
+       position={[0, 1, 0]}
+       intensity={15}
+       rotation={[-Math.PI / 4, Math.PI / 4, 0]}
       />
     </>
   )
