@@ -18,6 +18,14 @@ const HeroLights = () => {
        penumbra={0.5}
        color='#4cc9f0'
       />
+      
+      <spotLight 
+       position={[-3, 5, 5]}
+       angle={0.4}
+       intensity={60} 
+       penumbra={1}
+       color='#9d4edd'
+      />
     </>
   )
 }
