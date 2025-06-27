@@ -24,6 +24,7 @@ const ShowcaseSection = () => {
               <div className='image-wrapper bg-[#ffefdb]'>
                 <img src='../images/project2.png' alt='project 2' />
               </div>
+              <h2>Library Management Platform</h2>
             </div>
           </div>
         </div>
