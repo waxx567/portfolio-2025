@@ -1,4 +1,7 @@
 import React, { useRef } from 'react'
+import { gsap } from 'gsap';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const ShowcaseSection = () => {
   const sectionRef = useRef(null);
