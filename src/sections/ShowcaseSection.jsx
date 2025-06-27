@@ -17,7 +17,15 @@ const ShowcaseSection = () => {
               </p>
             </div>
           </div>
+
           {/* RIGHT */}
+          <div className='project-list-wrapper overflow-hidden'>
+            <div className='project'>
+              <div className='image-wrapper bg-[#ffefdb]'>
+                <img src='../images/project2.png' alt='project 2' />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
