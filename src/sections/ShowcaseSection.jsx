@@ -2,6 +2,9 @@ import React, { useRef } from 'react'
 
 const ShowcaseSection = () => {
   const sectionRef = useRef(null);
+  const project1 = useRef(null);
+  const project2 = useRef(null);
+  
   return (
     <div id='work'className='app-showcase'>
       <div className='w-full'>
