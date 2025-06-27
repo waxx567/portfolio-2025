@@ -26,6 +26,14 @@ const ShowcaseSection = () => {
               </div>
               <h2>Library Management Platform</h2>
             </div>
+            
+            <div className='project'>
+              <div className='image-wrapper bg-[#ffe7eb]'>
+                <img src='../images/project3.png' alt='project 3' />
+              </div>
+              <h2>YC Directory - A Start-up Showcase App</h2>
+            </div>
+
           </div>
         </div>
       </div>
