@@ -7,6 +7,14 @@ const NavBar = () => {
         <a className='logo' href='#hero'>
           Wayne | fivefiftyfive
         </a>
+
+        <nav className='desktop'></nav>
+
+        <a href='#contact' className='contact-btn group'>
+          <div className='inner'>
+            <span>Contact Me</span>
+          </div>
+        </a>
       </div>
     </header>
   )
