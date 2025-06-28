@@ -1,4 +1,4 @@
-import React from 'react'
+import { navLinks } from '../constants/index.js'
 
 const NavBar = () => {
   return (
@@ -8,7 +8,20 @@ const NavBar = () => {
           Wayne | fivefiftyfive
         </a>
 
-        <nav className='desktop'></nav>
+        <nav className='desktop'>
+          <ul>
+            <li>
+              {navLinks.map(({ link, name }) => (
+                <li key={name} className='group'>
+                  <a href={link}>
+                    <span>{name}</span>
+                    <span className='underline' />
+                  </a>
+                </li>
+              ))}
+            </li>
+          </ul>
+        </nav>
 
         <a href='#contact' className='contact-btn group'>
           <div className='inner'>
