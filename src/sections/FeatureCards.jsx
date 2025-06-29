@@ -1,8 +1,12 @@
-import React from 'react'
+import { abilities } from '../constants/index.js'
 
 const FeatureCards = () => {
   return (
-    <div>FeatureCards</div>
+    <div className='w-full padding-x-lg'>
+      <div className='mx-auto grid-3-cols'>
+        {abilities}
+      </div>
+    </div>
   )
 }
 
