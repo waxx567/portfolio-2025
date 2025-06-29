@@ -1,10 +1,14 @@
-import { abilities } from '../constants/index.js'
+import { abilities } from '../constants';
 
 const FeatureCards = () => {
   return (
     <div className='w-full padding-x-lg'>
       <div className='mx-auto grid-3-cols'>
-        {abilities}
+        {abilities.map(({ imgPath, title, desc }) => (
+          <div>
+            <h3>{title}</h3>
+          </div>
+        ))}
       </div>
     </div>
   )
