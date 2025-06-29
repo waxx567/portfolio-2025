@@ -9,7 +9,7 @@ const FeatureCards = () => {
             <div className='size-14 flex items-center justify-center rounded-full'>
               <img src={imgPath} alt={title} />
             </div>
-            <h3>{title}</h3>
+            <h3 className='text-white text-2xl font-semibold mt-2'>{title}</h3>
           </div>
         ))}
       </div>
