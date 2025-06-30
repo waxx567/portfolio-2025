@@ -7,7 +7,7 @@ const TechStack = () => {
       <div>
         <TitleHeader
          title='My Preferred Tech Stack' 
-         sub='🤝 The Skills I Brag About' 
+         sub='🤝 The Skills I Acquired'
         />
       </div>
     </div>
