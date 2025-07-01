@@ -1,4 +1,4 @@
-// - Loads a `.glb` model (GTLF format)
+// - Loads a `.glb` model (GLTF format)
 // - Adds basic lighting
 // - Applies environment reflections for realism
 // - Wraps the model in a floating animation
