@@ -5,9 +5,16 @@
 // - Optionally tweaks the material (like setting a white colour on a specific mesh)
 // - Disables zoom using OrbitControls
 
-const TechIcon = () => {
+import { useGLTF } from '@react-three/drei';
+import { Canvas } from '@react-three/fiber';
+
+const TechIcon = ({ model }) => {
+  const scene = useGLTF(model.modelPath);
+
   return (
-    <div>TechIcon</div>
+    <Canvas>
+      
+    </Canvas>
   )
 }
 
