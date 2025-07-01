@@ -17,7 +17,7 @@ const TechIcon = ({ model }) => {
       <Environment preset='city' />
 
       <Float speed={5.5} rotationIntensity={0.5} floatIntensity={0.9}>
-        <group>
+        <group scale={model.scale}>
           <primitive object={scene.scene} />
         </group>
       </Float>
