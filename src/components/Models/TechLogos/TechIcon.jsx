@@ -5,7 +5,7 @@
 // - Optionally tweaks the material (like setting a white colour on a specific mesh)
 // - Disables zoom using OrbitControls
 
-import { useGLTF } from '@react-three/drei';
+import { Environment, Float, useGLTF } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 
 const TechIcon = ({ model }) => {
@@ -13,7 +13,14 @@ const TechIcon = ({ model }) => {
 
   return (
     <Canvas>
-      
+      <ambientLight intensity={0.3} />
+      <Environment preset='city' />
+
+      <Float>
+        <group>
+          <primitive object={scene.scene} />
+        </group>
+      </Float>
     </Canvas>
   )
 }
