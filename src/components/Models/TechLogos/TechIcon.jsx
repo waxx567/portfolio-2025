@@ -14,6 +14,7 @@ const TechIcon = ({ model }) => {
   return (
     <Canvas>
       <ambientLight intensity={0.3} />
+      <directionalLight position={[5, 5, 5]} intensity={1} />
       <Environment preset='city' />
 
       <Float speed={5.5} rotationIntensity={0.5} floatIntensity={0.9}>
