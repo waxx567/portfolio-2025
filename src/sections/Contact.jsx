@@ -44,7 +44,7 @@ const Contact = () => {
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
           title="Let’s Connect"
-          sub="💬 Get in Touch!" 
+          sub="💬 Get in Touch" 
         />
         <div className="grid-12-cols mt-16">
           <div className="xl:col-span-5">
