@@ -47,6 +47,7 @@ const Contact = () => {
           sub="💬 Get in Touch" 
         />
         <div className="grid-12-cols mt-16">
+          {/* Contact Form - Left */}
           <div className="xl:col-span-5">
             <div className="flex-center card-border rounded-xl p-10">
               <form
@@ -55,20 +56,20 @@ const Contact = () => {
                 className="w-full flex flex-col gap-7"
               >
                 <div>
-                  <label htmlFor="name">Your name</label>
+                  <label htmlFor="name">Name</label>
                   <input
                     type="text"
                     id="name"
                     name="name"
                     value={form.name}
                     onChange={handleChange}
-                    placeholder="What’s your good name?"
+                    placeholder="What’s your name?"
                     required
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="email">Your Email</label>
+                  <label htmlFor="email">Email</label>
                   <input
                     type="email"
                     id="email"
@@ -81,7 +82,7 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <label htmlFor="message">Your Message</label>
+                  <label htmlFor="message">Message</label>
                   <textarea
                     id="message"
                     name="message"
@@ -107,6 +108,8 @@ const Contact = () => {
               </form>
             </div>
           </div>
+
+          {/* Contact Experience - Right */}
           <div className="xl:col-span-7 min-h-96">
             <div className="bg-[#cd7c2e] w-full h-full hover:cursor-grab rounded-3xl overflow-hidden">
               <ContactExperience />
