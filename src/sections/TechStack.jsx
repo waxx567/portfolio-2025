@@ -27,7 +27,7 @@ const TechStack = () => {
       <div className='w-full h-full md:px-10 px-5'>
         <TitleHeader
          title='My Tech Stack' 
-         sub='🛠️ Skills and Tools' 
+         sub='🛠️ Skills And Tools' 
         />
 
         <div className='tech-grid'>
