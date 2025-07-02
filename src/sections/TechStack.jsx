@@ -5,11 +5,18 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 
 const TechStack = () => {
+  // Animate the tech cards in the skills section
   useGSAP(() => {
+    // This animation is triggered when the user scrolls to the #skills wrapper
+    // The animation starts when the top of the wrapper is at the center of the screen
+    // The animation is staggered, meaning each card will animate in sequence
+    // The animation ease is set to "power2.inOut", which is a slow-in fast-out ease
     gsap.fromTo(".tech-card", {
+      // Initial values
       y: 50,
       opacity: 0,
     }, {
+      // Final values
       y: 0,
       opacity: 1,
       duration: 1,
@@ -31,9 +38,12 @@ const TechStack = () => {
         />
 
         <div className='tech-grid'>
+          {/* Loop through the techStackIcons array and create a component for each item. 
+              The key is set to the name of the tech stack icon, and the classnames are set to 
+              card-border, tech-card, overflow-hidden, and group. The xl:rounded-full and rounded-lg 
+              classes are only applied on larger screens. */}
           {techStackIcons.map((icon) => (
             <div key={icon.name} className='card-border tech-card overflow-hidden group xl:rounded-full rounded-lg'>
-              {/* <div className='tech-card-animated-bg' /> */}
               <div className='tech-card-content'>
                 <div className='tech-icon-wrapper'>
                   <TechIcon model={icon} />
