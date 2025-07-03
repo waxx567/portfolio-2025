@@ -65,7 +65,7 @@ const Hero = () => {
 
         {/* RIGHT: 3D Model or Visual */}
         <figure>
-          <div className="hero-3d-layout">
+          <div className="hero-3d-layout hover:cursor-grab">
             <HeroExperience />
           </div>
         </figure>
