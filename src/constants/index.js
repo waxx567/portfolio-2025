@@ -72,6 +72,9 @@ const logoIconsList = [
   {
     imgPath: "/images/logos/peer-logo.png",
   },
+  {
+    imgPath: "/images/logos/Official_WordPress_Logo.png",
+  },
 ];
 
 const abilities = [
