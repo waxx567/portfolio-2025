@@ -40,9 +40,6 @@ const logoIconsList = [
     imgPath: "/images/logos/Sass.png",
   },
   {
-    imgPath: "/images/logos/PostgreSQL.png",
-  },
-  {
     imgPath: "/images/logos/MySQL.png",
   },
   {
@@ -50,9 +47,6 @@ const logoIconsList = [
   },
   {
     imgPath: "/images/logos/Figma.png",
-  },
-  {
-    imgPath: "/images/logos/JavaScript.png",
   },
   {
     imgPath: "/images/logos/Salesforce.png",
@@ -70,22 +64,16 @@ const logoIconsList = [
     imgPath: "/images/logos/Canva.png",
   },
   {
-    imgPath: "/images/logos/TailwindCSS.png",
-  },
-  {
-    imgPath: "/images/logos/Wordpress.png",
-  },
-  {
     imgPath: "/images/logos/Vite.js.png",
-  },
-  {
-    imgPath: "/images/logos/TypeScript.png",
   },
   {
     imgPath: "/images/logos/SQLite.png",
   },
   {
     imgPath: "/images/logos/Slack.png",
+  },
+  {
+    imgPath: "/images/logos/WooCommerce.png",
   },
 ];
 
