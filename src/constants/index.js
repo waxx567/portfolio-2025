@@ -37,37 +37,55 @@ const counterItems = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: "/images/logos/Sass.png",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: "/images/logos/PostgreSQL.png",
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: "/images/logos/MySQL.png",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: "/images/logos/HTML5.png",
   },
   {
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath: "/images/logos/Figma.png",
   },
   {
-    imgPath: "/images/logos/company-logo-6.png",
+    imgPath: "/images/logos/JavaScript.png",
   },
   {
-    imgPath: "/images/logos/company-logo-7.png",
+    imgPath: "/images/logos/Salesforce.png",
   },
   {
-    imgPath: "/images/logos/company-logo-8.png",
+    imgPath: "/images/logos/Django.png",
   },
   {
-    imgPath: "/images/logos/company-logo-9.png",
+    imgPath: "/images/logos/CSS3.png",
   },
   {
-    imgPath: "/images/logos/company-logo-10.png",
+    imgPath: "/images/logos/Bootstrap.png",
   },
   {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: "/images/logos/Canva.png",
+  },
+  {
+    imgPath: "/images/logos/TailwindCSS.png",
+  },
+  {
+    imgPath: "/images/logos/Wordpress.png",
+  },
+  {
+    imgPath: "/images/logos/Vite.js.png",
+  },
+  {
+    imgPath: "/images/logos/TypeScript.png",
+  },
+  {
+    imgPath: "/images/logos/SQLite.png",
+  },
+  {
+    imgPath: "/images/logos/Slack.png",
   },
 ];
 
