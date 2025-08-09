@@ -69,9 +69,6 @@ const logoIconsList = [
   {
     imgPath: "/images/logos/company-logo-11.png",
   },
-  {
-    imgPath: "/images/logos/peer-logo.png",
-  },
 ];
 
 const abilities = [
