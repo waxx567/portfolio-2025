@@ -51,7 +51,7 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Wayne McRae, a South African developer with a passion for
+              Wayne McRae is a South African developer with a passion for
               code.
             </p>
 
