@@ -33,8 +33,8 @@ const TechStack = () => {
     <div id='skills' className='flex-center section-padding'>
       <div className='w-full h-full md:px-10 px-5'>
         <TitleHeader
-         title='My Tech Stack' 
-         sub='🛠️ Skills And Tools' 
+         title='Some Of My Skills' 
+         sub='🛠️ Tech And Tools' 
         />
 
         <div className='tech-grid'>
