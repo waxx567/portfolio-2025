@@ -48,12 +48,12 @@ const ShowcaseSection = () => {
           {/* LEFT */}
           <div className='first-project-wrapper' ref={project1Ref}>
             <div className='image-wrapper'>
-              <img src='../images/peertraining.png' alt='project 1' />
+              <img src='../images/peer-hero.png' alt='project 1' />
             </div>
             <div className='text-content'>
-              <h2>On-Demand Rides Made Simple with a Powerful, User-Friendly App called Ryde</h2>
+              <h2>WordPress website created for The Peer Sales Training Group</h2>
               <p className='text-white-50 md:text-xl'>
-                An app built with React Native, Expo, & TailwindCSS for a fast, user-friendly experience.
+                A mobile-first application built using the Elementor page builder and Neve theme for a fast, secure, and user-friendly experience.
               </p>
             </div>
           </div>
