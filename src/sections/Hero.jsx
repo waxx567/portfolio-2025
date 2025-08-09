@@ -51,11 +51,11 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Use your mouse to manipulate the 3D models and see how they move ➤
-            </p>
-            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
               By Wayne McRae - a South African developer with a passion for
               code.
+            </p>
+            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+              Use your mouse to control the 3D models and see how they move ❯❯❯
             </p>
 
             <Button
