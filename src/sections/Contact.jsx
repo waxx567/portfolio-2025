@@ -4,6 +4,12 @@ import emailjs from "@emailjs/browser";
 import TitleHeader from "../components/TitleHeader";
 import ContactExperience from "../components/Models/contact/ContactExperience";
 
+/**
+ * A Contact section component that renders a form for users to get in touch.
+ * It includes fields for name, email, and message, and utilizes EmailJS for
+ * sending form data. The component manages form state and loading state.
+ * It also displays a "Contact Experience" section along with the form.
+ */
 const Contact = () => {
   const formRef = useRef(null);
   const [loading, setLoading] = useState(false);
@@ -13,11 +19,22 @@ const Contact = () => {
     message: "",
   });
 
+  /**
+   * Handles form input changes by updating the form state
+   * with the corresponding name and value.
+   * @param {React.ChangeEvent<HTMLInputElement>} e
+   */
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
   };
 
+  /**
+   * Handles form submission by preventing default behavior, showing
+   * loading state, sending the form data using EmailJS, and resetting
+   * the form and loading state on success or failure.
+   * @param {React.FormEvent<HTMLFormElement>} e
+   */
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true); // Show loading state
