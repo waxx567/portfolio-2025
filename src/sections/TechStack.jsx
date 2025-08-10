@@ -4,6 +4,13 @@ import TechIcon from '../components/Models/TechLogos/TechIcon'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 
+/**
+ * A component that renders a section containing a grid of tech stack cards. Each card is a div
+ * with a rounded border and a flex layout. The card contains an image, a title, and a
+ * description. The cards are arranged in a 3-column grid on large screens and a single
+ * column on small screens. The cards are animated to slide up and fade in as the user
+ * scrolls to the #skills wrapper.
+ */
 const TechStack = () => {
   // Animate the tech cards in the skills section
   useGSAP(() => {
