@@ -46,7 +46,7 @@ const Hero = () => {
                   </span>
                 </span>
               </h1>
-              <h1>into Experiences</h1>
+              <h1>into <span className="bg-gradient-to-r from-purple-500 to-purple-800 text-transparent bg-clip-text">Experiences</span></h1>
               <h1>that Deliver Results</h1>
             </div>
 

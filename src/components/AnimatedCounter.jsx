@@ -7,6 +7,12 @@ import { counterItems } from "../constants";
 
 gsap.registerPlugin(ScrollTrigger);
 
+/**
+ * AnimatedCounter is a React functional component that displays a set of animated counters.
+ * Each counter animates from 0 to a target value on scroll, using GSAP for animations and ScrollTrigger for scroll-based triggers.
+ * The target values, suffixes, and labels are defined in the counterItems array from the constants module.
+ * The component uses refs to manage DOM elements and initiate animations when the component is mounted.
+ */
 const AnimatedCounter = () => {
   const counterRef = useRef(null);
   const countersRef = useRef([]);

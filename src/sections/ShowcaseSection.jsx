@@ -71,7 +71,8 @@ const ShowcaseSection = () => {
               <div className='image-wrapper bg-[#ffe7eb]'>
                 <img src='../images/github.webp' alt='project 3' />
               </div>
-              <h2>So much more to see on my <a href='https://github.com/waxx567'>GitHub</a></h2>
+              <h2>So much more to see on my <a href='https://github.com/waxx567'>
+               <span className="bg-gradient-to-r from-purple-500 to-purple-800 text-transparent bg-clip-text">GitHub</span></a></h2>
             </div>
 
           </div>
