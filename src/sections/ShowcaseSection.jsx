@@ -69,9 +69,9 @@ const ShowcaseSection = () => {
             
             <div className='project' ref={project3Ref}>
               <div className='image-wrapper bg-[#ffe7eb]'>
-                <img src='../images/project3.png' alt='project 3' />
+                <img src='../images/github.webp' alt='project 3' />
               </div>
-              <h2>YC Directory - A Start-up Showcase App</h2>
+              <h2>So much more to see on <a href='https://github.com/waxx567'>GitHub</a></h2>
             </div>
 
           </div>
