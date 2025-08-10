@@ -1,3 +1,11 @@
+/**
+ * A component that renders an anchor element with a smooth scrolling effect to an element with a matching id.
+ * 
+ * @param {string} text - The text that will be rendered in the button.
+ * @param {string} [className] - Additional CSS classes to be applied to the outermost element.
+ * @param {string} [id] - The id of the element to scroll to. If omitted, no scroll effect will be applied.
+ * @returns {ReactElement}
+ */
 const Button = ({ text, className, id }) => {
   return (
     <a
