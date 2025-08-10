@@ -53,7 +53,7 @@ const ShowcaseSection = () => {
             <div className='text-content'>
               <h2>WordPress website created for The Peer Sales Training Group</h2>
               <p className='text-white-50 md:text-xl'>
-                A mobile-first application built using the Elementor page builder and Neve theme for a fast, secure, and user-friendly experience.
+                A mobile-first application built using the Elementor page builder and Neve theme with all relevant plugins for a fast, secure, and user-friendly experience.
               </p>
             </div>
           </div>
