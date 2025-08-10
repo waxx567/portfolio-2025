@@ -1,6 +1,6 @@
 # Interactive 3D Portfolio Website
 
-[What I have so far](https://new.fivefiftyfive.in)
+[How it looks so far](https://new.fivefiftyfive.in)
 
 A visually captivating 3D portfolio built with React.js and Three.js! Combines interactive 3D graphics and smooth web performance to showcase my skills in an engaging way.
 
