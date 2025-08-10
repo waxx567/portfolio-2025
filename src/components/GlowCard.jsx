@@ -1,8 +1,26 @@
 import React, { useRef } from 'react'
 
+/**
+ * A GlowCard component that displays a glowing card with a star rating and a
+ * review. The card glows when the mouse is moved over it.
+ *
+ * @param {object} card - the card object with the review and date
+ * @param {ReactNode} children - the children of the card
+ * @param {number} index - the index of the card in the parent component
+ * @returns {ReactNode} the glow card component
+ */
 const GlowCard = ({ card, children, index }) => {
   const cardRefs = useRef([]);
 
+  /**
+   * Handles the mouse move event on the card. Calculates the position of the
+   * mouse relative to the card, calculates the angle of the mouse relative to
+   * the center of the card, and applies the rotation to the card.
+   *
+   * @param {number} index - the index of the card in the parent component
+   * @returns {(e: MouseEvent) => void} the function that handles the mouse move
+   *   event
+   */
   const handleMouseMove = (index) => (e) => {
     const card = cardRefs.current[index];
     if (!card) return;
