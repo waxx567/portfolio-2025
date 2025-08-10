@@ -5,6 +5,15 @@ import { useGSAP } from '@gsap/react';
 
 gsap.registerPlugin(ScrollTrigger);
 
+/**
+ * A component that renders a section containing a showcase of projects.
+ * The section appears after scrolling down from the hero section.
+ * The section has a fade-in animation and three project cards that slide up from the bottom.
+ * The first project card is on the left and has a larger image, while the other two are on the right and have smaller images.
+ * The project cards have a fade-in animation and are triggered by scrolling down to the bottom of the section.
+ * The section also has a background color that changes as the user scrolls down.
+ * The section is responsive and works well on mobile devices.
+ */
 const ShowcaseSection = () => {
   const sectionRef = useRef(null);
   const project1Ref = useRef(null);
