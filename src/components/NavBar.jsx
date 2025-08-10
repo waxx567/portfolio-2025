@@ -2,6 +2,15 @@ import { useState, useEffect } from "react";
 
 import { navLinks } from "../constants";
 
+/**
+ * A component that renders a header with a navbar and a contact button.
+ * The navbar has three links to different sections of the page.
+ * The contact button has a link to the contact section of the page.
+ * The component has a state called "scrolled" which is set to true if the user has scrolled down the page at least 10px.
+ * The component has an event listener for when the user scrolls, and will set the "scrolled" state to true if the user has scrolled down the page at least 10px.
+ * The component also has a cleanup function that removes the event listener when the component is unmounted.
+ * The component renders a header with the navbar and contact button, and adds a class of "scrolled" or "not-scrolled" to the header depending on the state of the component.
+ */
 const NavBar = () => {
   // track if the user has scrolled down the page
   const [scrolled, setScrolled] = useState(false);
