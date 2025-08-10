@@ -3,6 +3,11 @@ import TitleHeader from '../components/TitleHeader'
 import { testimonials } from '../constants'
 import GlowCard from '../components/GlowCard'
 
+/**
+ * A component that renders a section with a title, subtitle, and a grid of glowing cards containing testimonials.
+ * The testimonials are sourced from the `testimonials` array in `constants/index.js`.
+ * The component uses the `TitleHeader` component for the title and subtitle, and the `GlowCard` component for each testimonial.
+ */
 const Testimonials = () => {
   return (
     <section id='testimonials' className='flex-center section-padding'>
