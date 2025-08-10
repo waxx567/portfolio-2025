@@ -64,7 +64,7 @@ const ShowcaseSection = () => {
               <div className='image-wrapper bg-[#ffefdb]'>
                 <img src='../images/peer-hero.png' alt='project 2' />
               </div>
-              <h2>Library Management Platform</h2>
+              <h2>React • Tailwind • Appwrite • Figma</h2>
             </div>
             
             <div className='project' ref={project3Ref}>

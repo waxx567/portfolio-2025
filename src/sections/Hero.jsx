@@ -55,7 +55,7 @@ const Hero = () => {
               code.
             </p>
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Use your mouse to control the 3D models and see how they move ❯❯❯
+              Your mouse controls the 3D models on the site and moves them around ❯❯❯
             </p>
 
             <Button
