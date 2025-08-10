@@ -11,9 +11,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="flex flex-col justify-center md:items-start items-center">
-          More at <a href="https://fivefiftyfive.io">
-          <span className="bg-gradient-to-r from-purple-500 to-purple-800 text-transparent bg-clip-text">fivefiftyfive.io</span>
-</a>
+          More at <a href="https://fivefiftyfive.io"><span className="bg-gradient-to-r from-purple-500 to-purple-800 text-transparent bg-clip-text">fivefiftyfive.io</span></a>
         </div>
         <div className="socials">
           {socialImgs.map((socialImg, index) => (
