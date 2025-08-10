@@ -62,7 +62,7 @@ const ShowcaseSection = () => {
           <div className='project-list-wrapper overflow-hidden'>
             <div className='project' ref={project2Ref}>
               <div className='image-wrapper bg-[#ffefdb]'>
-                <img src='../images/peer-mockup.png' alt='project 2' />
+                <img src='../images/movie mockup.png' alt='project 2' />
               </div>
               <h2>React • Tailwind • Appwrite • Figma</h2>
             </div>
