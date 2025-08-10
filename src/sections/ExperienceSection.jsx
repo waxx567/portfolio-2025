@@ -8,6 +8,17 @@ import GlowCard from "../components/GlowCard";
 
 gsap.registerPlugin(ScrollTrigger);
 
+/**
+ * A component that renders a section containing a timeline of the
+ * user's experience. The section appears after scrolling down from the
+ * hero section. The section has a fade-in animation and a timeline
+ * that scales down from 1 to 0 as the user scrolls up the screen.
+ * The section also contains a glow card with a title and responsibilities
+ * for each experience. The glow card has a fade-in animation and is
+ * triggered by scrolling down to the bottom of the section. The section
+ * is responsive and works well on mobile devices.
+ * @returns {React.ReactElement} The Experience component.
+ */
 const Experience = () => {
   useGSAP(() => {
     // Loop through each timeline card and animate them in
