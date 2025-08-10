@@ -9,6 +9,14 @@ import Testimonials from './sections/Testimonials.jsx'
 import Contact from './sections/Contact.jsx'
 import Footer from './sections/Footer.jsx'
 
+/**
+ * The main application component. This component is the highest level
+ * component in the component hierarchy of the application. It renders
+ * all the other components in the application, in the order that they
+ * should appear in the application.
+ *
+ * @returns {React.ReactElement} The main application component.
+ */
 const App = () => {
   return (
     <>
