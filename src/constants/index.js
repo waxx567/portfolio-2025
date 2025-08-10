@@ -153,10 +153,10 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Attained certifications in Harvard CS50x, CS50p, and CS50ai where I honed my skills on HTML5, CSS3, JavaScript, Python, Flask, MySQL, PHP, Bootstrap, Git, GitHub, Tensorflow, PyTorch, Keras, matplotlib, NumPy, Pandas, and Scikit-Learn, among others. These courses provided a solid foundation for my career as a web developer.",
+    review: "Attained certifications for CS50x, CS50p, and CS50ai online courses, where I honed my skills on HTML5, CSS3, JavaScript, Python, Flask, MySQL, PHP, Bootstrap, Git, GitHub, Tensorflow, PyTorch, Keras, matplotlib, NumPy, Pandas, and Scikit-Learn, among others. These courses provided a solid foundation for my career as a web developer. Self-motivation, attention to detail, and a strong work ethic are key to success when tackling these difficult, but ultimately rewarding, courses.",
     // imgPath: "/images/harvard.png",
     logoPath: "/images/harvard.png",
-    title: "Frontend Developer",
+    title: "Harvard University",
     date: "May 2023 - June 2024",
     responsibilities: [
       "CS50x taught me how to solve problems, both with and without code, with an emphasis on correctness, design, and style. Topics included computational thinking, abstraction, algorithms, data structures, image processing and classification, object detection, and segmentation, and computer science more generally. I learned how to think like a programmer, and how to make and deploy web apps that solve real-world problems.",
@@ -165,21 +165,21 @@ const expCards = [
     ],
   },
   {
-    review: "Wayne’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    review: "Cranking things up several notches, I taught myself React, Tailwind CSS, Sass, Django, Appwrite, Docker and Three.js. I became fascinated with interactive 3D visuals and the power of React Three Fiber. I was able to create stunning and engaging web apps that showcased my skills and expertise, and I'm still rather proud of my first attempt at a 3D potfolio, despite its shortcomings. I'm determined to continue learning and growing in this exciting field.",
+    // imgPath: "/images/exp2.png",
+    logoPath: "/images/js.png",
     title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    date: "June 2024 - Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Developed responsive, high-performance web applications using React for dynamic component-based UIs and Tailwind CSS for rapid, utility-first styling. Implemented reusable components to ensure scalability and maintainability across projects. Optimized page layouts for mobile, tablet, and desktop, resulting in fast load times and smooth user experiences. Leveraged Tailwind’s design system to maintain visual consistency while accelerating the development process.",
+      "Integrated Three.js to create immersive, interactive 3D visuals directly in the browser. Utilized React Three Fiber to seamlessly connect Three.js rendering with React’s declarative structure. Built interactive 3D product showcases, animations, and environment scenes to enhance engagement and deliver a modern, visually compelling user experience. Applied principles of lighting, textures, and geometry to create realistic and performant 3D content, ensuring smooth rendering even on lower-end devices.",
+      "Implemented secure and scalable backend services using Appwrite for authentication, real-time databases, file storage, and serverless functions. Connected frontend React components with Appwrite APIs to enable features like user registration, data persistence, and media uploads. Streamlined the development workflow by leveraging Appwrite’s open-source backend-as-a-service platform, reducing setup time while maintaining flexibility. Deployed applications to cloud platforms such as Vercel and Netlify, ensuring high availability and optimal performance. Managed environment variables, build optimizations, and continuous deployment pipelines to deliver production-ready applications efficiently",
     ],
   },
   {
     review: "Wayne’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
+    // imgPath: "/images/exp3.png",
+    logoPath: "/images/new-logo.png",
     title: "React Native Developer",
     date: "March 2019 - May 2020",
     responsibilities: [
