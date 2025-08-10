@@ -79,17 +79,17 @@ const logoIconsList = [
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
+    imgPath: "/images/hacker1.png",
     title: "Dedicated and Enthusiastic",
     desc: "Committed to delivering high-quality code with a positive attitude and a penchant for problem-solving.",
   },
   {
-    imgPath: "/images/chat.png",
+    imgPath: "/images/hacker3.png",
     title: "Passionate and Conscientious",
     desc: "Driven by a passion for coding, I pay close attention to detail and strive for excellence in every project I undertake.",
   },
   {
-    imgPath: "/images/time.png",
+    imgPath: "/images/hacker2.png",
     title: "Able to Work Independently",
     desc: "Capable of managing tasks effectively and delivering results on time while taking initiative and responsibility.",
   },
