@@ -153,10 +153,10 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Attained certifications for CS50x, CS50p, and CS50ai online courses, where I honed my skills on HTML5, CSS3, JavaScript, Python, Flask, MySQL, PHP, Bootstrap, Git, GitHub, Tensorflow, PyTorch, Keras, matplotlib, NumPy, Pandas, and Scikit-Learn, among others. These courses provided a solid foundation for my career as a web developer. Self-motivation, attention to detail, and a strong work ethic are key to success when tackling these difficult, but ultimately rewarding, courses.",
+    review: "Attained certifications from Harvard University for CS50x, CS50p, and CS50ai online courses, where I honed my skills on HTML5, CSS3, JavaScript, Python, Flask, MySQL, PHP, Bootstrap, Git, GitHub, Tensorflow, PyTorch, Keras, matplotlib, NumPy, Pandas, and Scikit-Learn, among others. These courses provided a solid foundation for my career as a web developer. Self-motivation, attention to detail, and a strong work ethic are key to success when tackling these difficult, but ultimately rewarding, courses.",
     // imgPath: "/images/harvard.png",
     logoPath: "/images/harvard.png",
-    title: "Harvard University",
+    title: "Computer Science Student",
     date: "May 2023 - June 2024",
     responsibilities: [
       "CS50x taught me how to solve problems, both with and without code, with an emphasis on correctness, design, and style. Topics included computational thinking, abstraction, algorithms, data structures, image processing and classification, object detection, and segmentation, and computer science more generally. I learned how to think like a programmer, and how to make and deploy web apps that solve real-world problems.",
@@ -165,7 +165,7 @@ const expCards = [
     ],
   },
   {
-    review: "Cranking things up several notches, I taught myself React, Tailwind CSS, Sass, Django, Appwrite, Docker and Three.js. I became fascinated with interactive 3D visuals and the power of React Three Fiber. I was able to create stunning and engaging web apps that showcased my skills and expertise, and I'm still rather proud of my first attempt at a 3D potfolio, despite its shortcomings. I'm determined to continue learning and growing in this exciting field.",
+    review: "I develop modern, interactive web applications using React, Tailwind CSS, Three.js, and Appwrite, combining sleek design with powerful functionality. My approach focuses on creating responsive, scalable solutions that deliver exceptional user experiences. I leverage React for component-based architecture, Tailwind for rapid and consistent styling, and Three.js for immersive 3D elements. With Appwrite handling backend services, I can build and deploy full-stack applications efficiently—transforming ideas into polished, high-performance digital products that engage and inspire.",
     // imgPath: "/images/exp2.png",
     logoPath: "/images/js.png",
     title: "Full Stack Developer",
@@ -177,15 +177,15 @@ const expCards = [
     ],
   },
   {
-    review: "Wayne’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "I have extensive experience designing and developing websites with WordPress and Elementor, delivering visually appealing, responsive, and user-focused results. My work ranges from personal blogging platforms to high-profile client projects, where I combine technical skill with creative problem-solving. I focus on authenticity, accessibility, and performance—ensuring each site reflects the brand’s identity and engages its audience. From custom layouts to innovative implementations, I create digital experiences that are both functional and memorable.",
     // imgPath: "/images/exp3.png",
     logoPath: "/images/new-logo.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Content Management Systems Project Manager",
+    date: "March 2024 - Present",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Built and maintained my own blog site to share insights, projects, and resources, applying best practices for SEO, content structure, and user engagement. Designed an intuitive navigation system and clean layouts that encourage readership and repeat visits. Experimented with custom Elementor widgets and styling to differentiate the blog’s look and feel from standard templates. This personal project allowed me to refine my WordPress skills while cultivating an authentic online presence and demonstrating my ability to manage a content-rich website end-to-end.",
+      "Designed and developed engaging websites using WordPress as the content management system, leveraging its flexibility to create unique and functional layouts. Utilized Elementor for rapid, drag-and-drop page building, ensuring pixel-perfect designs without sacrificing performance. Implemented responsive design principles to guarantee smooth usability across mobile, tablet, and desktop devices. Customized themes, integrated plugins, and optimized site performance to deliver professional, user-friendly experiences for both clients and audiences.",
+      "Developed a website for The Peer Training Group, a respected sales training organization, with a brief to ensure inclusivity and authenticity. Innovatively incorporated the group’s own photographs of delegates rather than relying on generic stock imagery—creating a genuine visual identity that resonates with their audience. Used Elementor to craft visually appealing, accessible layouts while maintaining brand consistency. Optimized images for web performance without losing quality and ensured that all content was easy to update for the client’s in-house team. This project demonstrated both creative thinking and a strong client-focused approach, aligning design decisions directly with the organization’s values and objectives.",
     ],
   },
 ];
