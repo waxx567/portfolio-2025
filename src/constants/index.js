@@ -251,21 +251,28 @@ const testimonials = [
 ];
 
 const socialImgs = [
+  // {
+  //   name: "insta",
+  //   imgPath: "/images/insta.png",
+  // },
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
+    name: "github",
+    imgPath: "/images/github.webp",
+    url: "https://github.com/waxx567",
+  },
+  // {
+  //   name: "x",
+  //   imgPath: "/images/x.png",
+  // },
+  {
+    name: "linkedin",
+    imgPath: "/images/linkedin2.png",
+    url: "https://www.linkedin.com/in/wayne-mcrae-677044267/",
   },
   {
     name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
-  },
-  {
-    name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    imgPath: "/images/facebook.png",
+    url: "https://www.facebook.com/fivefiftyfive67/",
   },
 ];
 
