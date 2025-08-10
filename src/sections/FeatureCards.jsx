@@ -1,5 +1,11 @@
 import { abilities } from '../constants';
 
+/**
+ * A component that renders a section with a grid of feature cards. Each card is a div
+ * with a rounded border and a flex layout. The card contains an image, a title, and a
+ * description. The cards are arranged in a 3-column grid on large screens and a single
+ * column on small screens.
+ */
 const FeatureCards = () => {
   return (
     <div className='w-full padding-x-lg'>
