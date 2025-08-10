@@ -6,6 +6,16 @@ import Button from "../components/Button";
 import { words } from "../constants";
 import HeroExperience from "../components/HeroModels/HeroExperience";
 
+/**
+ * A component that renders the hero section of the webpage.
+ * The hero section contains a background image, a heading with a gradient
+ * animation, a paragraph of text, and a button with a counter animation.
+ * The component uses the useGSAP hook to animate the heading and button.
+ * The component also renders a 3D model of a person using the HeroExperience
+ * component, which is a wrapper around the HeroModel component.
+ * The 3D model is animated with a hover effect that changes the model's rotation
+ * and zoom level.
+ */
 const Hero = () => {
   useGSAP(() => {
     gsap.fromTo(
