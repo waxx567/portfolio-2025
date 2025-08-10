@@ -64,7 +64,7 @@ const ShowcaseSection = () => {
               <div className='image-wrapper bg-[#ffefdb]'>
                 <img src='../images/movie mockup.png' alt='project 2' />
               </div>
-              <h2>React • Tailwind • Appwrite • Figma</h2>
+              <h2>Movie app from Figma design built with React, Tailwind and Appwrite.</h2>
             </div>
             
             <div className='project' ref={project3Ref}>
