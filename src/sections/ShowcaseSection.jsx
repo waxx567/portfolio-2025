@@ -48,10 +48,10 @@ const ShowcaseSection = () => {
           {/* LEFT */}
           <div className='first-project-wrapper' ref={project1Ref}>
             <div className='image-wrapper'>
-              <img src='../images/peer-hero.png' alt='project 1' />
+              <img src='../images/peer mockup.png' alt='project 1' />
             </div>
             <div className='text-content'>
-              <h2>WordPress website created for The Peer Sales Training Group</h2>
+              <h2>WordPress website created for The Peer Group</h2>
               <p className='text-white-50 md:text-xl'>
                 A mobile-first application built using the Elementor page builder and Neve theme with all relevant plugins for a fast, secure, and user-friendly experience.
               </p>
@@ -62,7 +62,7 @@ const ShowcaseSection = () => {
           <div className='project-list-wrapper overflow-hidden'>
             <div className='project' ref={project2Ref}>
               <div className='image-wrapper bg-[#ffefdb]'>
-                <img src='../images/peer-hero.png' alt='project 2' />
+                <img src='../images/peer-mockup.png' alt='project 2' />
               </div>
               <h2>React • Tailwind • Appwrite • Figma</h2>
             </div>
