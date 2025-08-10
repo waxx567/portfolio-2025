@@ -106,7 +106,7 @@ const Experience = () => {
                 <div className="xl:w-2/6">
                   <GlowCard card={card}>
                     <div>
-                      <img src={card.imgPath} alt="exp-img" />
+                      <img src={card.imgPath} alt="" />
                     </div>
                   </GlowCard>
                 </div>
@@ -126,7 +126,7 @@ const Experience = () => {
                           🗓️&nbsp;{card.date}
                         </p>
                         <p className="text-[#839CB5] italic">
-                          Responsibilities
+                          What I Did
                         </p>
                         <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-white-50">
                           {card.responsibilities.map(

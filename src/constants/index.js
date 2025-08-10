@@ -153,15 +153,15 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Wayne brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    review: "Attained certifications in Harvard CS50x, CS50p, and CS50ai where I honed my skills on HTML5, CSS3, JavaScript, Python, Flask, MySQL, PHP, Bootstrap, Git, GitHub, Tensorflow, PyTorch, Keras, matplotlib, NumPy, Pandas, and Scikit-Learn, among others. These courses provided a solid foundation for my career as a web developer.",
+    // imgPath: "/images/harvard.png",
+    logoPath: "/images/harvard.png",
     title: "Frontend Developer",
-    date: "January 2023 - Present",
+    date: "May 2023 - June 2024",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "CS50x taught me how to solve problems, both with and without code, with an emphasis on correctness, design, and style. Topics included computational thinking, abstraction, algorithms, data structures, image processing and classification, object detection, and segmentation, and computer science more generally. I learned how to think like a programmer, and how to make and deploy web apps that solve real-world problems.",
+      "CS50p went deeper into reading and writing Python code, including testing and debugging. This course covered functions, arguments, return values, variables and types, conditionals, Boolean expressions, and loops. I learned how to handle exceptions, use third-party libraries, validate and extract data with regular expressions, model real-world entities with classes, objects, methods, properties, and more.",
+      "CS50ai explored the concepts and algorithms at the foundation of modern artificial intelligence, delving into the ideas that give rise to technologies like game-playing engines, handwriting recognition, and machine translation. Through hands-on projects, I studied graph theory, graph search algorithms, dynamic programming, classification, optimization, machine learning, large language models, natural language processing and other relevant topics.",
     ],
   },
   {
@@ -193,7 +193,7 @@ const expCards = [
 const expLogos = [
   {
     name: "logo1",
-    imgPath: "/images/logo1.png",
+    imgPath: "/images/harvard.png",
   },
   {
     name: "logo2",
