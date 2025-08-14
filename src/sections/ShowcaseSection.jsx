@@ -78,7 +78,7 @@ const ShowcaseSection = () => {
             
             <div className='project' ref={project3Ref}>
               <div className='image-wrapper bg-[#ffe7eb]'>
-                <img src='../images/github-wallpaper.png' alt='project 3' />
+                <img src='../images/old portfolio hero.png' alt='project 3' />
               </div>
               <h2>So much more to see on my <a href='https://github.com/waxx567'>
                <span className="bg-gradient-to-r from-purple-500 to-purple-800 text-transparent bg-clip-text">GitHub</span></a></h2>
