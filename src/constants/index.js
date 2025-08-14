@@ -52,9 +52,6 @@ const logoIconsList = [
     imgPath: "/images/logos/Salesforce.png",
   },
   {
-    imgPath: "/images/logos/jsx.png",
-  },
-  {
     imgPath: "/images/logos/Django.png",
   },
   {
