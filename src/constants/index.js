@@ -29,10 +29,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 3, suffix: "+", label: "Years Experience" },
-  { value: 17, suffix: "+", label: "Languages & Technologies" },
-  { value: 29, suffix: "+", label: "Completed Projects" },
-  { value: 84, suffix: "%", label: "Average Exam Score" },
+  { value: 3, suffix: "+", label: "Years Programming Experience" },
+  { value: 17, suffix: "+", label: "Languages and Technologies" },
+  { value: 29, suffix: "+", label: "Completed Coding Projects" },
+  { value: 84, suffix: "%", label: "Average Examimation Grade" },
 ];
 
 const logoIconsList = [
